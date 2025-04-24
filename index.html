@@ -13,10 +13,16 @@
       background: #f4f4f4;
     }
     header, footer {
-      background: #333;
+      background: #40e0d0;
       color: #fff;
       padding: 1em 2em;
       text-align: center;
+    }
+    header img {
+      width: 150px;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 0.5em;
     }
     nav {
       text-align: center;
@@ -42,10 +48,25 @@
     ul {
       padding-left: 1.2em;
     }
+    .image-with-caption {
+      margin-top: 1em;
+      margin-bottom: 2em;
+      text-align: center;
+    }
+    .image-with-caption img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .image-with-caption p {
+      font-style: italic;
+      color: #555;
+    }
   </style>
 </head>
 <body>
   <header>
+    <img src="me.png" alt="Donavyn Fortin-Delmaire" />
     <h1>Donavyn Fortin-Delmaire</h1>
     <p>"Always eager to learn new things"</p>
     <p>
@@ -74,7 +95,15 @@
         <li>Safety-minded</li>
         <li>Teamwork</li>
       </ul>
+      <div class="image-with-caption">
+        <img src="vanscoy.png" alt="Nutrien Vanscoy">
+        <p>Nutrien Vanscoy (2019)</p>
+      </div>
       <p>Though I didn’t have that big of a role while at the sites, my time there was still very valuable. I got to learn what it was like to work in a team, I got to get firsthand industry experience, and when I was able to help, I made sure I did a good job. This internship laid the foundation for my developing skillset, and would be a big steppingstone in my career.</p>
+      <div class="image-with-caption">
+        <img src="lanigan.jpg" alt="Nutrien Lanigan">
+        <p>Nutrien Lanigan (2020)</p>
+      </div>
 
       <h3>IT Analyst Intern | Nutrien Ag Solutions</h3>
       <p>Rocanville, Saskatchewan</p>
@@ -82,7 +111,12 @@
       <p>Rocanville’s mine is the largest Potash mine owned by Nutrien, the largest supplier of Potash in the world!</p>
       <p>I immediately had a larger role that I needed to fill, I was given more independence but also higher expectations. My first few weeks I needed to give training sessions to new summer hires (like myself) on how to work their software and get started at the company.</p>
       <p>I also would frequently be assigned tasks with little to no assistance from my supervisor. I was encouraged to struggle and problem-solve and only to ask for assistance if necessary. This would be pivotal in developing my ability to learn things quickly to satisfy the needs of the business.</p>
+<div class="image-with-caption">
+        <img src="rocanville.jpg" alt="Nutrien Rocanville">
+        <p>Nutrien Rocanville (2020)</p>
+      </div>
     </section>
+
 
     <section id="skills" class="section">
       <h2>Skills</h2>
@@ -119,11 +153,17 @@
       <p>We eventually found a rhythm and managed to deliver a product that we were all proud of. I was largely responsible for implementing the vehicle portion of our app. I created a way for our users to register their vehicles into the app, and then select which vehicle they would use to park. We got to showcase our app in a presentation in front of the industry’s leading programmers, and to all our classmates. I no longer have a copy of the project itself, but I have the video of our presentation, see below.</p>
       <a href="https://drive.google.com/file/d/1vQqUmunmKbuLYfOTNLoNUskiNE-qa8X8/view?usp=drive_link">Link to Presentation Video</a>
 
+
       <h3>CrowdStrike Bug</h3>
       <p>I also got firsthand experience with a disaster scenario, being the CrowdStrike bug of 2024. A security software known as “CrowdStrike” released a faulty software update that caused a worldwide outage on millions of computers, including Nutrien ones.</p>
       <p>Multiple blue screens of death caused by a faulty software update on baggage carousels at LaGuardia Airport, New York City.<br>Via Wikipedia</p>
       <p>I was called in at 3:00AM on my day off to assist in restoring operations to the site. Around 70% of the site’s computers were down, and we had to manually go to every single one and turn them back on. Once we found a solution it wasn’t hard to revert the update, but the hard part was tracking down all the important computers. By 11:00AM we had restored access to all the high priority machines, but it would have been another month before we had completely restored access to all Nutrien’s end users.</p>
       <p>Though I do not have any physical evidence of such an event, it is unmistakable that I was present for the recovery process. And I feel I learned much more in this disaster event than I could ever learn from a project artifact.</p>
+<div class="image-with-caption">
+        <img src="crowdstrike.jpg" alt="Crowdstrike">
+	<p>Multiple blue screens of death caused by a faulty software update on baggage carousels at LaGuardia Airport, New York City. <br/>Via Wikipedia</p>
+
+      </div>
 
       <h3>Home Server</h3>
       <p>To streamline my digital life and expand my technical skills, I have built a home server that serves multiple purposes.</p>
@@ -132,6 +172,11 @@
       <p>A Minecraft server I run using Fork, a program to simplify running a server by using a GUI</p>
       <p>Additionally, the server functions as a reliable backup solution for all my sensitive data and schoolwork. My laptop, home computers, and phone will periodically (once a week) send the data I specify to my server. Where it will be kept safe and ready to deploy in case my devices become corrupted.</p>
       <p>My home server has served as a fun passion project, a helpful tool, and an excellent way to refine my IT skills. I hope to work on it for many more years and add more features as I learn about them.</p>
+	<div class="image-with-caption">
+        <img src="server.png" alt="Home Minecraft Server">
+	<p>A Minecraft server I run using <i>Fork</i>, a program to simplify running a server by using a GUI </p>
+
+      </div>
     </section>
   </div>
 
